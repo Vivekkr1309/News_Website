@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Style images inside articles */
+.article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style headings */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Style navigation */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer design */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+}
+
+/* Style navigation links */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px; /* Adjust the border-radius for the button shape */
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.line {
+    border: 2px dashed #de9b9b; /* 2px dashed line with a color of #333 */
+    width: 200px; /* Set the width of the line */
+    height: 0; /* Set the height to 0 to create a horizontal line */
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li a:hover {
+    background-color: #555;
+}
+
+/* Style news container */
+#news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Style individual articles */
+.article {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style article links */
+.article a,
+a.article-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.article a:hover,
+a.article-link:hover {
+    color: #333;
+}
+
+/* Style article links with class */
+a.article-link {
+    color: #007BFF;
+}
+
+a.article-link:hover {
+    color: #0056b3;
+}
+
